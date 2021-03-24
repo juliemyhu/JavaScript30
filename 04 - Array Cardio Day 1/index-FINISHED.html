@@ -107,6 +107,16 @@
 
     console.log(transportation);
 
+    function split_into(n,arr,pad){
+      var result = []
+      const remainder = arr.length % n 
+
+      for (i = 0; i < arr.length ;i++) {
+          const pair = [];
+          pair.push(arr.splice(i))
+      };
+      return result
+    }
   </script>
 </body>
 </html>
